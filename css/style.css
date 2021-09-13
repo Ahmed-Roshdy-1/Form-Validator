@@ -73,13 +73,14 @@ button {
 }
 button:hover {
   filter: brightness(200%);
-  background: #2f3e46;
+  background: #1b1b1b;
 }
 
 .message-container {
   border: 3px solid #fff;
   border-radius: 5px;
   width: 90%;
+  font-size: 1rem;
   margin-bottom: 15px;
   display: flex;
   justify-content: center;
