@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Sriracha, sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  background-color: #2f3e46;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%23000000' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 30rem;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 5px 50px 10px rgb(255, 255, 255, 0.8);
+}
+
+/* Form */
+form {
+  width: 90%;
+}
+.form-group {
+  height: 70px;
+}
+label {
+  position: relative;
+  bottom: 3px;
+}
+
+input {
+  width: 100%;
+  height: 2rem;
+  background: #f4f1de;
+  color: rgb(0, 0, 0);
+  border: 1px solid #000;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.5s;
+}
+
+input:valid {
+  border: 3px solid green;
+}
+input:invalid {
+  border: 3px solid red;
+}
+
+button {
+  width: 100%;
+  height: 3rem;
+  cursor: pointer;
+  border-radius: 5px;
+  align-self: center;
+  background: #000;
+  color: #fff;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  margin: 10px 0 15px 0;
+  font-family: Sriracha, sans-serif;
+}
+button:hover {
+  filter: brightness(200%);
+  background: #2f3e46;
+}
+
+.message-container {
+  border: 3px solid #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
